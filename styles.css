@@ -1,0 +1,138 @@
+header{
+    background-color: pink;
+}
+nav{
+    display:inline;
+    margin-left:45%;
+    margin-top:0;
+    cursor: pointer;
+}
+h1, .inline{
+    display:inline;
+    margin-left:10%;
+}
+a{
+    text-decoration:none;
+    color:gray;
+}
+h2{
+    text-align:center;
+    display:block;
+}
+.model{
+    display:flex;
+    flex-direction:column;
+    border:2px solid black;
+}
+.one{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    gap:5%
+}
+button{
+    background-color:pink;
+    color:black;
+    border-radius: 12px;
+    border-color: black;
+    padding:4px;
+    box-shadow: 1px 1px 2px hotpink;
+}
+img{
+    border:2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 6px black;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+}
+.pcol{
+    color:blue;
+}
+#new-arrivals{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    gap:5%
+}
+.jacket{
+    margin-top: 0;
+}
+a:hover{
+    background-color:hotpink;
+}
+.logo{
+    border-radius:80px;
+    display:block;
+    margin:20px auto;
+}
+footer{
+    background-color: pink;
+    text-align:center;
+    font-size:20px;
+}
+.pdec{
+    color:green;
+}
+.navigation{
+    margin-top:20%;
+    margin-left:80%
+}
+#cloths{
+    padding-top:8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+}
+.filter{
+    text-align:center;
+}
+.display{
+    margin-right:60%;
+}
+.old-price{
+    text-decoration:line-through;
+    color:blueviolet;
+}
+#accessories{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    padding-top:30px;
+}
+#footwear{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    padding-top:30px;
+}
+fieldset{
+    padding:8px;
+    margin:40px;
+    font-weight:bold;
+    font-size:21px;
+    background-color: pink;
+    display:block;
+    border-radius:4px;
+    border:2px solid hotpink;
+    text-align:center;
+    box-shadow:2px 2px 4px hotpink;
+    width:60%;
+    margin-left:20%;
+}
+fieldset button{
+    background-color:brown;
+    color:white;
+    font-size:16px;
+}
+fieldset button:hover{
+    background-color: black;
+}
+.rating{
+    text-align:center;
+}
